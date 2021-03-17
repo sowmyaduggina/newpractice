@@ -1,6 +1,6 @@
 pipeline {
 
-     agents any
+   agents any
      
      stages{
          
@@ -14,8 +14,8 @@ pipeline {
        
             steps{
               echo 'testing the application'
-       }
-    }   
+         }
+      }   
     
     stage("deploy") {
     
