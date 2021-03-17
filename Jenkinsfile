@@ -1,6 +1,6 @@
 pipeline {
 	agents any
-	stages {
+	steps {
 		stage ('Build') {
 			steps {
 			     echo "Running build phase...."
